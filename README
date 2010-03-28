@@ -1,2 +1,5 @@
 URL: http://acm.pku.edu.cn/JudgeOnline/problemlist
 Make a new folder for each problem set.
+
+Format: Volume/Problem ID
+Example: 1/1000    # A+B Problem
