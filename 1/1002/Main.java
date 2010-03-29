@@ -28,8 +28,6 @@ public class Main {
                     key.append(alpha[c-'A']);
                 else if(Character.isDigit(c))
                     key.append(c);
-
-                if (key.length() == 3) key.append('-');
             }
 
             String sKey = key.toString();
@@ -47,9 +45,10 @@ public class Main {
 
         for(Map.Entry<String,Integer>e : tm.entrySet()) {
             int v = e.getValue();
-            if (v != 1)
-                System.out.println(e.getKey() + " " + v);
+            if (v != 1) {
+                String key = e.getKey();
+                System.out.println(key.substring(0,3) + "-" + key.substring(3,7) + " " + v);
+            }
         }
     }
 }
-
