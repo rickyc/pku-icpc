@@ -1,24 +1,24 @@
 A+B Problem
 ===========
 
-* Problem: [1000](http://acm.pku.edu.cn/JudgeOnline/problem?id=1000)
-* Time Limit: 1000MS
-* Memory Limit: 10000K
+    Problem: 1000 [http://acm.pku.edu.cn/JudgeOnline/problem?id=1000]
+    Time Limit: 1000MS
+    Memory Limit: 10000K
 
 Description
 -----------
 
-Calculate a+b
+    Calculate a+b
 
 Input
 -----
 
-Two integer a,b (0<=a,b<=10)
+    Two integer a,b (0<=a,b<=10)
 
 Output
 ------
 
-Output a+b
+    Output a+b
 
 Sample Input
 -----------
