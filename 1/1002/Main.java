@@ -1,6 +1,4 @@
-import java.io.File;
 import java.lang.Character;
-import java.io.IOException;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.TreeMap;
@@ -9,9 +7,8 @@ public class Main {
 
     public static char[] alpha = { '2','2','2','3','3','3','4','4','4','5','5','5','6','6','6','7','0','7','7','8','8','8','9','9','9'};
 
-    public static void main(String[] args) throws IOException {
-        //Scanner s = new Scanner(System.in);
-        Scanner s = new Scanner(new File("input.txt"));
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
         TreeMap<String,Integer> tm = new TreeMap<String,Integer>();
         boolean duplicateFound = false;
 

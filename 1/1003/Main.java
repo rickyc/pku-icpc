@@ -1,11 +1,9 @@
-import java.io.File;
-import java.io.IOException;
+import java.util.Comparator;
 import java.util.Scanner;
 import java.util.TreeSet;
-import java.util.Comparator;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         TreeSet<nInt> ts = new TreeSet<nInt>(new TSComparator());
 
         double previous = 0;
@@ -15,8 +13,7 @@ public class Main {
             ts.add(j);
         }
 
-        //Scanner s = new Scanner(System.in);
-        Scanner s = new Scanner(new File("input.txt"));
+        Scanner s = new Scanner(System.in);
         
         while(s.hasNext()) {
             float f = s.nextFloat();

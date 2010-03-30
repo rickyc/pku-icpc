@@ -1,12 +1,9 @@
-import java.io.File;
-import java.io.IOException;
-import java.util.Scanner;
 import java.math.BigDecimal;
+import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
-        //Scanner s = new Scanner(System.in);
-        Scanner s = new Scanner(new File("input.txt"));
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
         
         double balance = 0;
         while(s.hasNext())

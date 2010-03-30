@@ -3,3 +3,6 @@ Make a new folder for each problem set.
 
 Format: Volume/Problem ID
 Example: 1/1000    # A+B Problem
+
+Compile: javac Main.java
+Run: java Main < input.txt
