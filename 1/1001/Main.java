@@ -10,11 +10,9 @@ public class Main {
         
         while(sn.hasNext()) {
             BigDecimal bd = new BigDecimal(sn.next());
-            int i = sn.nextInt();
-            bd = bd.pow(i);
+            bd = bd.pow(sn.nextInt());
             bd = bd.stripTrailingZeros();
-            String str = bd.toPlainString().replaceFirst("^0{1}","");
-            System.out.println(str);
+            System.out.println( bd.toPlainString().replaceFirst("^0{1}",""));
         }
     }
 }
