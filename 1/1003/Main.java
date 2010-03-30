@@ -13,9 +13,7 @@ public class Main {
             previous += 1.0/(1.0+i);
             nInt j = new nInt(i,previous);
             ts.add(j);
-     //       System.out.println(i + " " + previous);
         }
-
 
         //Scanner s = new Scanner(System.in);
         Scanner s = new Scanner(new File("input.txt"));
@@ -44,6 +42,5 @@ public class Main {
 
         public int getCard() { return card; }
     }
-
 }
 
